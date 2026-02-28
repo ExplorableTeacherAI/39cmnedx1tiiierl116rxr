@@ -93,6 +93,29 @@ export const variableDefinitions: Record<string, VariableDefinition> = {
         color: '#22c55e',
     },
 
+    // Number of interpolation steps
+    numSteps: {
+        defaultValue: 7,
+        type: 'number',
+        label: 'Number of Steps',
+        description: 'How many steps to divide the line into',
+        min: 1,
+        max: 15,
+        step: 1,
+        color: '#3b82f6',
+    },
+
+    // Step progress for discrete section
+    discreteStep: {
+        defaultValue: 0,
+        type: 'number',
+        label: 'Current Step',
+        description: 'Tracks progress through the discrete section',
+        min: 0,
+        max: 4,
+        step: 1,
+    },
+
     // Uncomment and modify these examples for your lesson:
 
     /*
