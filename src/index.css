@@ -63,7 +63,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 189 100% 50%;
+    --primary: 220 90% 56%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96%;
@@ -80,15 +80,15 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 189 100% 50%;
+    --ring: 220 90% 56%;
 
     --radius: 0.75rem;
 
     /* Custom tokens for light mode */
     --glass-bg: 0 0% 100% / 0.8;
-    --gradient-primary: linear-gradient(135deg, hsl(189 100% 50%), hsl(270 60% 60%));
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 40% 96%));
-    --shadow-glow: 0 0 30px hsl(189 100% 50% / 0.2);
+    --gradient-primary: linear-gradient(135deg, hsl(220 90% 56%), hsl(280 70% 60%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(220 30% 97%));
+    --shadow-glow: 0 0 30px hsl(220 90% 56% / 0.2);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
