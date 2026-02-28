@@ -8,6 +8,7 @@ initializeVariableColors(variableDefinitions);
 
 // Import section blocks
 import { lineDrawingIntroBlocks } from "./sections/lineDrawingIntro";
+import { lineDrawingLerpBlocks } from "./sections/lineDrawingLerp";
 
 /**
  * ------------------------------------------------------------------
@@ -88,4 +89,7 @@ import { lineDrawingIntroBlocks } from "./sections/lineDrawingIntro";
 export const blocks: ReactElement[] = [
     // Section 1: Introduction to Line Drawing on Grids
     ...lineDrawingIntroBlocks,
+
+    // Section 2: Linear Interpolation (Lerp)
+    ...lineDrawingLerpBlocks,
 ];

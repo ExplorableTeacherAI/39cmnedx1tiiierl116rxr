@@ -78,8 +78,20 @@ export interface VariableDefinition {
  */
 export const variableDefinitions: Record<string, VariableDefinition> = {
     // ========================================
-    // ADD YOUR VARIABLES HERE
+    // LINE DRAWING LESSON VARIABLES
     // ========================================
+
+    // Linear interpolation parameter (0 to 1)
+    lerpT: {
+        defaultValue: 0.5,
+        type: 'number',
+        label: 't (interpolation)',
+        description: 'The interpolation parameter - 0 means start point, 1 means end point',
+        min: 0,
+        max: 1,
+        step: 0.01,
+        color: '#22c55e',
+    },
 
     // Uncomment and modify these examples for your lesson:
 
