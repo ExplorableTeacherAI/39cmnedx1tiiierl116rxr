@@ -10,6 +10,7 @@ initializeVariableColors(variableDefinitions);
 import { lineDrawingIntroBlocks } from "./sections/lineDrawingIntro";
 import { lineDrawingLerpBlocks } from "./sections/lineDrawingLerp";
 import { lineDrawingDiscreteBlocks } from "./sections/lineDrawingDiscrete";
+import { lineDrawingAlgorithmBlocks } from "./sections/lineDrawingAlgorithm";
 
 /**
  * ------------------------------------------------------------------
@@ -96,4 +97,7 @@ export const blocks: ReactElement[] = [
 
     // Section 3: From Continuous to Discrete
     ...lineDrawingDiscreteBlocks,
+
+    // Section 4: The Complete Algorithm
+    ...lineDrawingAlgorithmBlocks,
 ];
